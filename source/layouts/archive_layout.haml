@@ -1,0 +1,10 @@
+= wrap_layout :layout do
+  #subnav
+    .full
+      %ul.nav
+        %li= link_to '2013', '/archiv/2013.html', :class => (@subnav == '2013' ? 'current' : '')
+        %li= link_to '2014', '/archiv/2014.html', :class => (@subnav == '2014' ? 'current' : '')
+  #content-main
+    .full
+      .space
+      = yield

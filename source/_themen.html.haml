@@ -1,0 +1,41 @@
+- @nav = 'themen'
+- themen = data.themen.year2014
+
+.space
+
+%h2 Themen
+
+%p Das Barcamp ist eine offene Konferenz, bei der jeder eine Session über jedes beliebige Thema halten kann. Im Idealfall werden die Teilnehmer in den Beitrag mit einbezogen. Gerne kann die Session auch in Form eines kleinen Workshops erfolgen.
+%p Einzige Einschränkung dabei ist, dass bei der Sessionplanung am ersten Tag von allen Teilnehmern darüber abgestimmt wird, welche Beiträge stattfinden werden und welche aus Zeit- oder Platzgründen nicht im Programm unterkommen.
+
+%hr
+  %p
+    Per E-Mail an
+    =mail_to 'kontakt@bcrgb.de'
+    könnt ihr eure Themen schon im Vorfeld einreichen und damit schon vorab "Fans" für euer Thema gewinnen. Bitte Titel, Kurzbeschreibung und Name bzw. Twitter-Kürzel mit angeben.
+%hr
+
+
+%h3 Themenvorschläge
+
+- themen.each do |t|
+  .thema
+    %p
+      %strong= t.title
+    %p= t.desc
+    %p
+      %small
+        = "– "
+        = t.name unless t.name.blank?
+        = ' / ' unless t.twitter.blank? or t.name.blank?
+        = link_to "@#{t.twitter}", "http://twitter.com/#{t.twitter}", target: "_blank" unless t.twitter.blank?
+    %hr
+
+.thema
+  %p
+    %strong Ihr Thema
+  %p Kurze Themenbeschreibung
+  %p 
+    %small
+      = "– "
+      Name / Twitter

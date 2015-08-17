@@ -1,0 +1,29 @@
+- @nav = 'archiv'
+- @subnav = '2013'
+- days = data.sessions2013.days
+
+%h1 Archiv 2013
+%h2 Sessions
+.space
+- days.each do |day, times|
+  .half{:class => (day == 'sun' ? "last" : "") }
+    - if day == 'sat'
+      %h3 Samstag
+    - else
+      %h3 Sonntag
+
+    - sessions = times.values.delete_if{|v| v.is_a? String }.map{|h| h.values}.flatten(1)
+    - sessions.sort!{ |x,y| x["title"].downcase <=> y["title"].downcase }
+
+    %ul.space
+      - sessions.each do |session|
+        %li
+          %strong= session['title']
+          \– Sprecher(in):
+
+          - if session['speaker'][0] == "@"
+            = link_to session['speaker'], "http://twitter.com/#{session['speaker'][1..-1]}"
+          - else 
+            = session['speaker']
+
+.space

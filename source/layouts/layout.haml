@@ -1,0 +1,60 @@
+!!! 5
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{"http-equiv"=>"Content-Type", :content=>"text/html;charset=utf-8"}
+    %meta{ :content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible" }
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0, maximum-scale=1.0"}
+
+    %title Barcamp Regensburg
+    = stylesheet_link_tag :all, :media => "all"
+    /[if IE]
+      = stylesheet_link_tag :ie, :media => "all"
+    /[if lt IE 7]
+      = stylesheet_link_tag :ie6, :media => "all"
+    = javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js", :all
+    %link{ :href => 'http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700', :rel => 'stylesheet', :type => 'text/css' }
+
+    %link{ :rel => "shortcut icon", :type => "image/x-icon", :href => "/favicon.ico" }
+  %body
+    .page
+      #header.container
+        #header-main
+          %a#logo{:href => "/"}
+            = image_tag "logo.png", :alt => "BarCamp Regensburg"
+      #nav.container
+        .full
+          %ul.nav
+            %li= link_to 'Übersicht', '/', :class => (@nav.nil? ? 'current' : '')
+            -# %li= link_to 'Timetable', '/', :class => (@nav == 'samstag' ? 'current' : '')
+            -# %li= link_to 'Social Wall', 'social_wall.html', :class => (@nav == 'social_wall' ? 'current' : '')
+            -# # %li= link_to 'Infos', '/infos.html', :class => (@nav == 'infos' ? 'current' : '')
+            -# %li= link_to 'Samstag', '/archiv/2014/samstag.html', :class => (@nav == 'samstag' ? 'current' : '')
+            -# %li= link_to 'Sonntag', '/archiv/2014/sonntag.html', :class => (@nav == 'sonntag' ? 'current' : '')
+            %li= link_to 'Nights', '/nights/2015_06_18.html', :class => (@nav == 'nights' ? 'current' : '')
+            %li= link_to 'Archiv', '/archiv/2014.html', :class => (@nav == 'archiv' ? 'current' : '')
+            %li= link_to 'Kontakt', '/impressum.html', :class => (@nav == 'kontakt' ? 'current' : '')
+            -# # %li.right= link_to 'Social Wall', '/social_wall.html'
+            %li.right= link_to 'Tickets', 'https://ti.to/bcrgb/barcamp-regensburg-2015'
+
+      #content.container
+        = yield
+
+      #footer.container
+        #footer-main
+          #footer-content
+            = link_to "Barcamp Regensburg", "/"
+            |
+            = link_to "Impressum", "/impressum.html"
+
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-43716766-2']);
+      _gaq.push(['_gat._anonymizeIp']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

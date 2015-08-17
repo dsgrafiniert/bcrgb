@@ -1,0 +1,39 @@
+rooms:
+  - 1
+  - 2
+
+days:
+  sat:
+    '18:30 - 19:15 Uhr':
+      0:
+        title: "Mobile Trends 2015"
+        speaker: "Michael Völkl"
+      1:
+        title: "Lernen im Internet"
+        speaker: "@wissensagentur"
+    '19:15 - 20 Uhr':
+      0:
+        title: "Storytelling"
+        speaker: "@adthink"
+        slides_url: "http://www.adthink.de/vortrags-archiv-social-media-seminare"
+      1:
+        title: "Was kommt nach Facebook?"
+        speaker: "Unbekannt"
+    '20:00 - 20:30 Uhr': "Pause"
+    '20:30 - 21:15 Uhr':
+      0:
+        title: "Chronologie"
+        speaker: "@prcdv"
+        slides_url: "/files/chron_oberpfalznetz.pdf"
+      1:
+        title: "Heilmeiers Katechismus"
+        speaker: "@d_scho"
+        slides_url: "http://de.wikipedia.org/wiki/George_H._Heilmeier#.E2.80.9EHeilmeiers_Katechismus.E2.80.9C"
+    '21:15 - 22 Uhr':
+      0:
+        title: "Toastmasters Konferenz"
+        speaker: "Johannes"
+        slides_url: "http://konferenz.toastmasters-95i.org/"
+      1:
+        title: "Sind wir nicht alle Trolle?"
+        speaker: "@mikebuchner"

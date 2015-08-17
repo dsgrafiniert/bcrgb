@@ -1,0 +1,20 @@
+# 3 Month
+<filesMatch "\.(flv|gif|jpg|jpeg|png|ico|swf)$">
+    Header set Cache-Control "max-age=7257600"
+</filesMatch>
+# 1 Week
+<filesMatch "\.(js|css|pdf|txt)$">
+    Header set Cache-Control "max-age=604800"
+</filesMatch>
+# 10 Minutes
+<filesMatch "\.(html|htm)$">
+    Header set Cache-Control "max-age=600"
+</filesMatch>
+# NONE
+<filesMatch "\.(pl|php|cgi|spl)$">
+    Header unset Cache-Control
+    Header unset Expires
+    Header unset Last-Modified
+    FileETag None
+    Header unset Pragma
+</filesMatch>

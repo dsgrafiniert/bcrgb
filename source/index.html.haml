@@ -1,0 +1,95 @@
+#content-main
+  .full
+    #teaser= image_tag 'teaser.jpg'
+    .message.space
+      %h2 Das 3. BarCamp Regensburg findet vom 10. bis 11. Oktober 2015 in den Räumen der Universität Regensburg statt
+      %p Wir freuen uns bereits jetzt über alle, die den Termin verbreiten!
+  .infobox
+
+
+    .box
+      %h2 Wann &amp; Wo?
+      %h3 10. - 11. Oktober 2015
+      %p
+        Universität Regensburg – Vielberth Gebäude
+      %p= link_to 'Zu meinem Kalender hinzufügen', 'webcal://www.bcrgb.de/barcamp2015.ics'
+      %hr
+      %p= link_to "Tickets kaufen", 'https://ti.to/bcrgb/barcamp-regensburg-2015', :class => 'ticket'
+      -# %p.bottom Der Ticketpreis beinhaltet 2x Frühstück, 2x Mittagessen, 1x Brotzeit und alle Getränke.
+
+    -# .box
+    -#   %h3 Keine Lust zu warten?
+    -#   %p Jetzt auch BarCamp-Nights!
+    -#   %p= link_to "Weitere Infos", 'nights/2015_06_18.html', :class => 'ticket'
+
+    .box
+      %h3 Twitter
+      %p
+        = link_to '@bcrgb', 'http://www.twitter.com/bcrgb'
+        (Hashtag #bcrgb15)
+      %hr
+      %h3 Facebook
+      %p= link_to 'Facebook', 'http://www.facebook.com/bcrgb'
+      %hr
+      %h3 Google+
+      %p= link_to 'Google+', 'https://plus.google.com/u/0/114894492651005404957/posts'
+      %hr
+      %h3 Kontakt
+      %p= mail_to 'kontakt@bcrgb.de'
+
+
+  .aboutbox
+    %h2 Was ist ein BarCamp?
+    %p
+      %strong Ein BarCamp ist eine offene Tagung bei dem Workshops und Vorträge von den Teilnehmern gehalten und aktiv diskutiert werden.
+      %br
+      Die Inhalte und der Ablauf werden meist von Teilnehmern für Teilnehmer zu Beginn der Tagung selbst entwickelt. Ein BarCamp fördert die aktive Wissensvermittlung und forciert die kritische Diskussion von Fachwissen.
+    %p Dabei ist der Austausch von Wissen auf einer möglichst hierarchiefreien Ebene das eigentliche Ziel. Jeder Teilnehmer ist gefordert eigene Vorträge zu halten, sich mit anderen auszutauschen und Wissen frei weiterzugeben. So stehen Kommunikation und Kollaboration zwischen den unterschiedlichsten Fachgebieten und -disziplinen im Vordergrund.
+    %p BarCamps unterstützen somit auf neuartige und alternative Weise den Wissensaustausch zwischen Wissensträgern. Der Fokus liegt daher auf Offenheit und bricht mit dem klassisch-starren Frontalunterricht. Jeder erhält hier die Chance sich zu präsentieren und zeitgleich Feedback von den Teilnehmern zu bekommen.
+    %p
+      %strong Fazit: Auf einem BarCamp gibt es keine Zuhörer, nur Teilnehmer.
+    %hr
+    %h2 Wie läuft ein BarCamp ab?
+    %p Das Wichtigste bei einem Barcamp sind die sogenannten Sessions - dies können Vorträge, Diskussionsrunden oder Workshops sein.
+    %ul.space
+      %li Kurzes Kennenlernen
+      %li Vorstellung möglicher Sessions vor dem Publikum
+      %li Planung und Verteilung der Sessions je nach Interesse des Publikums
+      %li Besuch von angebotenen Sessions nach persönlichem Interesse
+      %li Gemeinsame Abendveranstaltungen
+
+
+.row
+  .full
+    %hr
+    %h2 Location
+  .sub_1
+    %p Wir sind in der Universität Regensburg im Vielberth Gebäude zu Gast. Uns stehen in diesem modernen und großzügigen Gebäude mehrere Seminarräume und der gesamte untere Bereich zur Verfügung. Jeder Raum ist mit Beamer und weiterer Technik ausgestattet, dass einem gelungenem 2. BarCamp Regensburg nichts im Weg steht!
+  .sub_2
+    = image_tag 'location_2.jpg'
+  .sub_3
+    = image_tag 'location_1.jpg'
+
+
+.row
+  .full
+    %hr
+    = image_tag 'sponsoren.png', usemap: '#sponsor_map'
+    %map{ name: 'sponsor_map' }
+      %area{ coords: "0,0,630,120", href: "http://oberpfalznetz.de", shape: "rect", target: "_blank" }
+      %area{ coords: "680,0,1328,120", href: "http://www.mediamarkt.de", shape: "rect", target: "_blank" }
+      %area{ coords: "850,180,1328,340", href: "http://www.adthink.de", shape: "rect", target: "_blank" }
+    %hr
+    %p
+      Für das Barcamp 2015 sind wir noch auf der Suche nach weiteren Sponsoren / Medienpartnern. Falls Sie Interesse haben, wenden Sie sich bitte an
+      =mail_to 'kontakt@bcrgb.de'
+
+.row
+  .full
+    %hr
+    %h2 Regensburg
+    %p
+      Regensburg, wunderschön an der Donau gelegen, wird auch die italienischste Stadt Bayerns genannt. Mit seinen großen Plätzen und Brunnen lädt es ein, zum sich niederzulassen und den Tag genießen. Mit drei Hochschulen gibt es in Regensburg eine sehr lebendige studentische Szene und das trägt zum bunten Stadtbild bei.
+    %p
+      Es wird gemunkelt, dass Regensburg die größte Kneipendichte von ganz Bayern hat :) Für jeden Geschmack ist etwas geboten, ob gemütliche Straßencafes, Restaurants aller Art, Musikkneipen, Kunst und Kultur wird hier groß geschrieben. Mit Stadtamhof gehört Regensburg inzwischen zum Unesco Weltkulturerbe und ist nicht nur deswegen immer eine Reise wert!
+    %p= image_tag 'footer.jpg'

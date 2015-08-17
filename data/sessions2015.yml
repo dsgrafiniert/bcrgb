@@ -1,0 +1,71 @@
+rooms:
+  - HAUPTSPONSOR
+  - 1
+  - 2
+  - 3
+  - 4
+
+days:
+  sat:
+    '8:30 - 9 Uhr': "Frühstück – 2.OG"
+    '9 - 10 Uhr': "Sessionplanung - HAUPTSPONSOR"
+    '10 - 11 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+
+    '11 - 12 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+    '12 - 13 Uhr': "Mittagessen – FH Mensa"
+    '13 - 14 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+    '14 - 15 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+
+    '15 - 16 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+
+    '16 - 17 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+
+
+    '17 Uhr': 'Abendessen'
+    '19:15 Uhr': 'Stadtführung (Optional)'
+    'ab 20 Uhr': 'Abendprogramm – Couch Bar'
+
+  sun:
+    '9 - 10 Uhr': "Frühstück & Sessionplanung – 2.OG"
+    '10 - 11 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+    '11 - 12 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+
+    '12 - 13 Uhr': "Mittagessen – 2.OG"
+    '13 - 14 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+
+    '14 - 15 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+    '15 - 16 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+    '16 Uhr': "Ende – Feedback"

@@ -1,0 +1,187 @@
+people:
+  -
+    name: "Hans Mustermann"
+    twitter: "@hmuster"
+    url: "http://mywebsite.de"
+  -
+    name: "Hans Mustermann2"
+    twitter: "@hmuster2"
+    url: "http://mywebsite2.de"
+
+rooms:
+  - Oberpfalznetz
+  - 1
+  - 2
+  - 3
+  - 4
+
+days:
+  sat:
+    '8:30 - 9 Uhr': "Frühstück – 2.OG"
+    '9 - 10 Uhr': "Sessionplanung - Oberpfalznetz"
+    '10 - 11 Uhr':
+      0:
+        title: "Neuro-Marketing"
+        speaker: "@adthink"
+        slides_url: "http://www.adthink.de/admin/fckeditor/userfiles/adthink_bcrgb14_neuro_marketing_221114.pdf"
+      1:
+        title: "Gemeingüter / Commons / Economy"
+        speaker: "@ljonka"
+      2:
+        title: "Rückblick zum Enterpreneurship-Summit 2014 in Berlin"
+        speaker: "@koenigerl"
+
+    '11 - 12 Uhr':
+      0:
+        title: "Die dunkle Seite des Internets"
+        speaker: "@Raguelvy"
+      1:
+        title: "Leadership & gender"
+        speaker: "Julia Grassinger"
+      2:
+        title: "Netzpolitik in der Kommune"
+        speaker: "@bvergnon"
+      3:
+        title: "Burnout vorbeugen mit Energiemanagement"
+        speaker: "@wissensagentur"
+        slides_url: "http://bit.ly/1vsk7Gz"
+    '12 - 13 Uhr': "Mittagessen – FH Mensa"
+    '13 - 14 Uhr':
+      0:
+        title: "WZ goes Barcamp - Feedbackstorm"
+        speaker: "Wirtschaftszeitung"
+      1:
+        title: "Multimedia Storytelling"
+        speaker: "@annespitaler"
+      2:
+        title: "Share Economy"
+        speaker: "@adthink"
+        slides_url: "http://www.adthink.de/admin/fckeditor/userfiles/adthink_bcrgb14_share_economy_221114.pdf"
+      3:
+        title: "Sind wir nicht alle ein Troll?"
+        speaker: "@mikebuchner"
+    '14 - 15 Uhr':
+      0:
+        title: "Redensburger Toastmasters"
+        speaker: "Claudia Kiener"
+      1:
+        title: "Wenn die Selbstständigkeit lockt"
+        speaker: "@strukturimpulse"
+      2:
+        title: "Content von Parteien"
+        speaker: "@bvergnon"
+
+    '15 - 16 Uhr':
+      0:
+        title: "Warum Talent gefährlich sein kann"
+        speaker: "@wissensagentur"
+        slides_url: "http://sicherundfreisprechen.de/mindset-wie-sie-ihr-denken-aendern-koennen-und-damit-ihr-gesamtes-erleben/"
+      1:
+        title: "Corportate Design"
+        speaker: "Sylvia Hofmann"
+      2:
+        title: "Social Reading & Writing"
+        speaker: "@adthink"
+        slides_url: "http://www.adthink.de/admin/fckeditor/userfiles/adthink_bcrgb14_social_reading_221114.pdf"
+
+    '16 - 17 Uhr':
+      0:
+        title: "Social-Media-Management mit Socialhub"
+        speaker: "@prcdv"
+      1:
+        title: "Webseiten schneller machen"
+        speaker: "Martin Unverdorben"
+      2:
+        title: "Social-Media-Manager in Deutschland"
+        speaker: "@alex_becheru"
+
+
+    '17 Uhr': 'Abendessen'
+    '19:15 Uhr': 'Stadtführung (Optional)'
+    'ab 20 Uhr': 'Abendprogramm – Couch Bar'
+
+  sun:
+    '9 - 10 Uhr': "Frühstück & Sessionplanung – 2.OG"
+    '10 - 11 Uhr':
+      0:
+        title: "Bayerische Brauereikunst"
+        speaker: "Andi & Martin"
+      1:
+        title: "Trello"
+        speaker: "@wissensagentur"
+      2:
+        title: "Besser scheitern mit SCRUM"
+        speaker: "@eadrax"
+      3:
+        title: "Transmediales Storytelling"
+        speaker: "@dannywoot"
+      4:
+        title: "Cloudcomputing"
+        speaker: "Stefan Grebler"
+    '11 - 12 Uhr':
+      0:
+        title: "Twitter"
+        speaker: "@prcdv"
+      1:
+        title: "Ingress für Kurzentschlossene"
+        speaker: "@mikebuchner"
+      2:
+        title: "Die Brücke zum Gegenüber"
+        speaker: "@wissensagentur"
+      3:
+        title: "Scrollytelling-Tools"
+        speaker: "@commandergold1"
+      4:
+        title: "Qualität - Warum nicht einfach mal zu Ende denken"
+        speaker: "@killerdackel"
+
+    '12 - 13 Uhr': "Mittagessen – 2.OG"
+    '13 - 14 Uhr':
+      0:
+        title: "RANQQ / Entscheidungsfindung"
+        speaker: "Susanne Selca"
+      1:
+        title: "Argumentieren für Dummies wie mich"
+        speaker: "@d_scho"
+      2:
+        title: "Passwörter verwalten ohne durchzudrehen"
+        speaker: "@wlborg"
+      3:
+        title: "Facebook-Marketing lass es"
+        speaker: "@alex_becheru"
+      4:
+        title: "8 + 1 = 10 / Windows 10 Tech Preview"
+        speaker: "Stefan Grebler"
+
+    '14 - 15 Uhr':
+      0:
+        title: "Barcamp Marketing How To"
+        speaker: "@d_scho"
+      1:
+        title: "Content Weekend"
+        speaker: "@adthink"
+        slides_url: "http://www.adthink.de/admin/fckeditor/userfiles/adthink_bcrgb14_content_weekend_221114.pdf"
+      2:
+        title: "Argentischer Tango"
+        speaker: "Kristina Ammann"
+      3:
+        title: "ALT- / NEU-Netzwerken"
+        speaker: "@culturbuereau"
+      4:
+        title: "Rechen-Cluster"
+        speaker: "Stefan Grebler"
+    '15 - 16 Uhr':
+      0:
+        title: "Das hässliche Binnen-i"
+        speaker: "Sarah Schön"
+      1:
+        title: "Redox Signal Moleküle"
+        speaker: ""
+      2:
+        title: "Wie komme ich an kostenlose Software von Microsoft?"
+        speaker: "Stefan Grebler"
+      3:
+        title: "Usability-Testessen"
+        speaker: "@sellingo"
+    '16 Uhr': "Ende – Feedback"
+

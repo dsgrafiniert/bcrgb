@@ -1,0 +1,367 @@
+// @import "bootstrap"
+// @import "bootstrap-responsive"
+
+
+@import "compass/css3"
+@import "compass/reset"
+@import "susy"
+
+$base_color_light: #eee
+$base_color_dark: #333
+$content-background: #fff
+
+$total-columns: 12
+$column-width: 4em
+$gutter-width: 1.4em
+$side-gutter-width: $gutter-width
+
+
+$susy: ( columns: $total-columns, gutters: $gutter-width / $column-width, column-width: $column-width, gutter-position: inside-static)
+
+$navigation-current-color: #fff
+$subnavigation-hover-background: #eee
+$subnavigation-hover-color: #333
+
++global-reset
+
+
+// MIXINS
+
+=clear
+  clear: both
+
+.clear
+  +clear
+
+.bottom, .box.bottom
+  margin-bottom: 0
+
+.message
+  padding: 0.8em 1em
+  background: #a42822
+  *
+    color: #fff
+  p
+    margin-top: 1em
+    font-size: 1.1em
+
+.ticket
+  text-align: center
+  background-color: #a42822
+  display: block
+  padding: 0.5em 0.6em
+  text-decoration: none
+  color: white
+  font-weight: bold
+  font-size: 1.4em
+  &:hover
+    background-color: #91181a
+    color: white
+
+
+body
+  font:
+    size: 0.9em
+    family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, "DejaVu Sans", sans-serif
+  line-height: 1.6em
+  background: #fff
+  color: #333
+
+hr
+  +clear
+  height: 1px
+  background: #ccc
+  border: none
+  margin: 1.4em 0
+
+h1, h2, .teaser_text
+  color: $base_color_dark
+  line-height: 1.3em
+
+h1
+  color: #999
+  font-size: 2em
+  margin-bottom: .5em
+
+h2
+  font-size: 2em
+  // font-weight: bold
+  margin-bottom: .2em
+
+h3
+  font-size: 1.4em
+  margin-bottom: .4em
+  color: #666
+
+
+a
+  color: #2f528f
+  &:hover
+    color: #000
+
+p
+  margin-bottom: 0.6em
+
+img
+  max-width: 100%
+
+strong
+  font-weight: bold
+
+small
+  font-size: 0.9em
+
+h2 a
+  background-color: $base_color_light
+
+// LAYOUT
+.container
+  +container(12)
+  // +susy-grid-background
+
+.space-s
+  margin-bottom: 1em
+
+.space
+  margin-bottom: 2em
+
+.page
+  margin: 0 auto
+  width: 66.2em
+  max-width: 100%
+  // background: #fff
+  margin-bottom: 2em
+
+#logo
+  img
+    padding: 26px 0
+    display: block
+    max-width: 100%
+    width: 300px
+
+#nav
+  margin-bottom: 0.6em
+  ul
+    background-color: #be0011
+    +span(12)
+  li
+    float: left
+
+    &.right
+      float: right
+      a
+        background-color: #333
+
+      a:hover, &.current
+        background-color: #000
+  a
+    color: #fff
+    text-decoration: none
+    line-height: 2.8em
+    display: block
+    padding: 0 1em
+    &:hover
+      background-color: #9c000f
+    &.current
+      background-color: #720900
+
+#subnav
+  margin-bottom: 0.6em
+  margin-top: -0.6em
+  ul
+    background-color: #720900
+    +span(12)
+  li
+    float: left
+    line-height: 2.8em
+
+  a
+    color: #fff
+    text-decoration: none
+
+    display: block
+    padding: 0 1em
+    border-bottom: 4px solid #720900
+    &:hover
+      background-color: #800a00
+      border-bottom: 4px solid #800a00
+    &.current
+      background-color: #720900
+      border-bottom: 4px solid white
+
+#footer-main, #header-main
+  +span(12)
+
+#footer
+  border-top: 1px solid #ccc
+  padding: 1em 0
+
+
+#footer-content
+  font-size: 0.8em
+
+#teaser
+  padding: 0
+  img
+    max-width: 100%
+
+#content-main
+  li
+    list-style-type: disc
+    margin-left: 2em
+    margin-bottom: 0.5em
+
+.full
+  +span(12)
+
+.sub_1
+  +span(4)
+
+.sub_2
+  +span(4)
+
+.sub_3
+  +span(4 omega)
+
+.sub_4
+  +span(8)
+
+.half
+  +span(6)
+
+.half.last
+  +span(6 omega)
+
+
+.infobox
+  +span(5 omega)
+
+  img
+    width: 120px
+    max-width: 100%
+    float: left
+    margin-right: 10px
+
+.aboutbox
+  +span(7)
+
+.box
+  background: #eee
+  padding: 0.8em
+  margin-bottom: $gutter-width
+
+  hr
+    background: #fff
+  &.important
+    background: $base_color_dark
+    color: #fff
+    h1, h2, h3
+      color: #fff
+
+.subnav
+  padding: $gutter-width 0
+  +span(4)
+  ul
+    border-top: 1px solid #eee
+    margin-bottom: $gutter-width
+  li a
+    display: block
+    padding: 1em 0
+    text-decoration: none
+    border-bottom: 1px solid #eee
+    &.current
+      color: #000
+      font-weight: bold
+
+
+.sub_content
+  padding: $gutter-width 0
+  +span(8 omega)
+
+
+.full_content
+  padding: $gutter-width 0
+  +span(12)
+
+.full_sidebar
+  padding: $gutter-width 0
+  +columns(4 omega)
+
+.rooms
+  margin-bottom: 1em
+
+.room
+  background: #eee
+  margin-bottom: 1em
+  min-height: 180px
+  +span(4)
+  p
+    padding: 0.5em 0.8em
+    margin: 0
+
+  .small
+    font-size: 0.8em
+    padding: 0.8em 1em
+
+.room_2
+  +omega
+
+.room_message
+  +span(12)
+  background: #333
+  color: #fff
+  font-weight: bold
+  margin: 0 0 4em
+  p
+    padding: 0.5em 0.8em
+    margin: 0
+
+.room_header
+  border-top: 4px solid #960c00
+  padding: 0.4em 0.6em
+  margin: 1em 0 0.6em
+  font-size: 1.6em
+
+.table
+  width: 100%
+  border: 0.1em solid #eee
+  padding: 0.4em 0.6em
+  margin: 1em 0 0.6em
+  tr
+    border: 0.1em solid #fff
+    height: 1.8em
+    width: 33.33%
+  td
+    border: 0.1em solid #fff
+    text-align: center
+    width: 33.33%
+  th
+    border: 0.1em solid #fff
+    text-align: center
+    width: 33.33%
+
+.thead
+  font-size: 1.3em
+  background-color: #91181a
+  color: #fff
+  vertical-align: middle
+
+.tbody
+  vertical-align: top
+  background-color: #eee
+  tr
+    border: 0.1em solid #fff
+    height: 1.5em
+  td
+    border: 0.1em solid #fff
+    height: 1.5em
+    text-align: center
+    vertical-align: top
+
+@media screen and (max-width: 800px)
+  body
+    font-size: 0.8em
+
+@media screen and (max-width: 600px)
+  .infobox, .aboutbox, .subnav, .sub_content, .full_content, .full_sidebar, .sub_1, .sub_2, .sub_3, .room, .half, .half.last
+    +span(12)

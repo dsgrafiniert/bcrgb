@@ -1,0 +1,38 @@
+- @nav = 'nights'
+- @subnav = '2015_03_19'
+- days = data.sessions2015_01.days
+
+
+%h1 BarCamp Night - März 2015
+
+%h2 Sessions
+
+%p
+  Fehlende Präsentationen bitte als Link einreichen unter
+  = mail_to "kontakt@bcrgb.de", "kontakt@bcrgb.de"
+
+.space
+
+- days.each do |day, times|
+  .half{:class => (day == 'sun' ? "last" : "") }
+
+    - sessions = times.values.delete_if{|v| v.is_a? String }.map{|h| h.values}.flatten(1)
+    - sessions.sort!{ |x,y| x["title"].downcase <=> y["title"].downcase }
+
+    %ul.space
+      - sessions.each do |session|
+        %li
+          %strong= session['title']
+          %br
+          Sprecher(in):
+
+          - if session['speaker'][0] == "@"
+            = link_to session['speaker'], "http://twitter.com/#{session['speaker'][1..-1]}"
+          - else
+            = session['speaker']
+          |
+
+          - if session['slides_url'].blank?
+            Folien nicht vorhanden
+          - else
+            = link_to "Präsentation", session['slides_url'], target: "_blank"

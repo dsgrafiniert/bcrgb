@@ -1,0 +1,96 @@
+- @nav = 'archiv'
+- @subnav = '2014'
+- days = data.sessions2014.days
+
+
+%h1 Archiv 2014
+
+%h2 Nachberichte
+
+.half
+  %ul.space
+    %li
+      = link_to "#bcrgb14 – Mehr als ein Geheimtipp", "http://www.cdv-kommunikationsmanagement.de/bcrgb14-mehr-als-ein-geheimtipp/", target: "_blank"
+      %br
+      Autor: Christian de Vries
+    %li
+      = link_to "BarCamp Regensburg, Klappe die Zweite", "https://storymug.wordpress.com/2014/11/24/barcamp-regensburg/", target: "_blank"
+      %br
+      Autorin: Kathrin Hälbich
+    %li
+      = link_to "Barcamp bereichert!", "http://karinschnappauf.blogspot.de/2014/11/barcamp-bereichert.html", target: "_blank"
+      %br
+      Autorin: Karin Schnappauf
+    %li
+      = link_to "Zwei Barcamps, ein Wochenende", "https://www.qundg.de/zwei-barcamps-ein-wochenende-bcrm14-und-bcrgb14-im-vergleich/", target: "_blank"
+      %br
+      Autorin: Selina Willand
+
+.half.last
+  %ul.space
+    %li
+      = link_to "BarCamp Regensburg.", "http://r1hard.wordpress.com/2014/11/22/barcamp-regensburg/", target: "_blank"
+      %br
+      Autor: Reinhard Weigl
+    %li
+      = link_to "BarCamp in Regensburg", "http://textblüten.com/barcamp-regensburg/", target: "_blank"
+      %br
+      Autorin: Barbara Lerchenberger
+    %li
+      = link_to "Das BarCamp Regensburg 2014", "http://www.michipedia.org/das-barcamp-regensburg-2014-oefter-mal-was-neues/", target: "_blank"
+      %br
+      Autor: Michael Buchner
+    %li
+      = link_to "Das 2. BarCamp Regensburg", "http://www.wissensagentur.net/das-2-barcamp-regensburg-mein-fazit-es-war-grossartig-1992.html", target: "_blank"
+      %br
+      Autor: Alexandra Grassler
+
+%hr
+
+
+%h2 Sessions
+
+%p
+  Fehlende Präsentationen bitte als Link einreichen unter
+  = mail_to "kontakt@bcrgb.de", "kontakt@bcrgb.de"
+
+.space
+
+- days.each do |day, times|
+  .half{:class => (day == 'sun' ? "last" : "") }
+    - if day == 'sat'
+      %h3 Samstag
+    - else
+      %h3 Sonntag
+
+    - sessions = times.values.delete_if{|v| v.is_a? String }.map{|h| h.values}.flatten(1)
+    - sessions.sort!{ |x,y| x["title"].downcase <=> y["title"].downcase }
+
+    %ul.space
+      - sessions.each do |session|
+        %li
+          %strong= session['title']
+          %br
+          Sprecher(in):
+
+          - if session['speaker'][0] == "@"
+            = link_to session['speaker'], "http://twitter.com/#{session['speaker'][1..-1]}"
+          - else
+            = session['speaker']
+          |
+
+          - if session['slides_url'].blank?
+            Folien nicht vorhanden
+          - else
+            = link_to "Präsentation", session['slides_url'], target: "_blank"
+
+-#
+  .full
+    %hr
+    %h2 Teilnehmerverzeichnis
+    - people = data.sessions2014.people.sort!{ |x,y| x["name"].downcase <=> y["name"].downcase }
+    %ul
+      - people.each do |person|
+        %li
+          = person["name"]
+

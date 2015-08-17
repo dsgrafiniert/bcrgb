@@ -1,0 +1,139 @@
+rooms:
+  - DocMorris
+  - 1
+  - 2
+  - 3
+  - 4
+
+days:
+  sat:
+    '9 - 10 Uhr': "Frühstück – 2.OG"
+    '10:30 - 11 Uhr': "Sessionplanung - DocMorris"
+    '11 - 12 Uhr':
+      0:
+        title: Zeigt her Eure Apps
+        speaker: "@DoSchu"
+      1:
+        title: DIY - Modernes kreatives Schaffen
+        speaker: "Waldo"
+      2:
+        title: Erfahrungsaustausch mit erfahrenen Campern
+        speaker: "Laura Schlicht"
+      3:
+        title: Nürnberg Web Week
+        speaker: "@ingodibella"
+    '12 - 13 Uhr':
+      0:
+        title: "Social Media (Content Qualität)"
+        speaker: "@ingodibella"
+      1:
+        title: "Content Marketing – Theorie und Praxis"
+        speaker: "@adthink"
+      2:
+        title: "Speeddating"
+        speaker: "Melanie W."
+      3:
+        title: "Startups gründen, führen und verkaufen"
+        speaker: "Andreas Wohlmuth"
+    '13 - 14 Uhr': "Mittagessen – FH Mensa"
+    '14 - 15 Uhr':
+      0:
+        title: "Coworking Regensburg"
+        speaker: "Daniel Schellhorn, @DoSchu"
+      1:
+        title: "9 Word E-Mail – Nachhaken bei Kontakten leicht gemacht"
+        speaker: "Ute"
+      2:
+        title: "Zerlegt die Zeitung"
+        speaker: "@dasKerst"
+    '15 - 16 Uhr':
+      0:
+        title: "Asche für Blogger"
+        speaker: "@hubertmayer"
+      1:
+        title: "Funktioniert ohne Rezept: Vernetzung"
+        speaker: "@prcdv"
+      2:
+        title: "Netzwerken, was ist das alles?"
+        speaker: "Ruth Mößmer"
+      3:
+        title: "Servermonitoring mit Zabbix"
+        speaker: "@blariog"
+
+    '16 - 17 Uhr':
+      0:
+        title: "Social Media und Recht"
+        speaker: "Melanie W."
+      1:
+        title: "Joomla – Eine Einführung"
+        speaker: "@parkplace_de"
+      2:
+        title: "Hühner verscheuchen – Stimmtraining"
+        speaker: "@wissensagentur" 
+    '17 Uhr': "Abendessen - 2.OG"
+
+  sun:
+    '9 - 10 Uhr': "Frühstück – 2.OG"
+    '10 - 10:30 Uhr': "Sessionplanung - DocMorris"
+    '10:30 - 11:30 Uhr':
+      0:
+        title: "Zerlegt die Zeitung"
+        speaker: "@dasKerst"
+      1:
+        title: "Stegreifreden"
+        speaker: "Miguel"
+      2:
+        title: "Twittern für Anfänger"
+        speaker: "Ruth"
+      3:
+        title: "Monitoring mit Netvibes"
+        speaker: "@prcdv"
+      4:
+        title: "Hausautomatisierung"
+        speaker: "@d_scho"
+    '11:30 - 12:30 Uhr':
+      0:
+        title: "Vom Problem zur Lösung"
+        speaker: "Constantin Sander"
+      1:
+        title: "Deutschland, Deutschland Web 1.0 Land?"
+        speaker: "@alex_becheru"
+      2:
+        title: "Stegreifübersetzen"
+        speaker: "Ute"
+      3:
+        title: "Wie Smartphones den PC killen"
+        speaker: "Josef Rossmann"
+
+    '12 - 13 Uhr': "Mittagessen – 2.OG"
+    '13 - 14 Uhr':
+      0:
+        title: "Vollbezahlter Urlaub als Freelancer"
+        speaker: "@dannywoot"
+      1:
+        title: "9 Word E-Mails"
+        speaker: "Ute"
+      2:
+        title: "Weinerei – 11 Jahre Wohnzimmer + Club"
+        speaker: ""
+      3:
+        title: "Quantified Self"
+        speaker: "@d_scho"
+      4:
+        title: "Arbeiten in der Sonne"
+        speaker: "Bernhard"
+    '14 - 15 Uhr':
+      0:
+        title: "Porn Revolution"
+        speaker: "@dannywoot"
+      1:
+        title: "Politcamp"
+        speaker: ""
+    '15 - 16 Uhr':
+      0:
+        title: "Warum ich eure Blogposts ziemlich scheiße finde"
+        speaker: "@prcdv"
+      1:
+        title: "Gendermarketing"
+        speaker: "@wissensagentur"
+    '16 Uhr': "Ende – Aufräumsession"
