@@ -4,7 +4,126 @@ rooms:
   - 2
   - 3
   - 4
-
+  
+people:
+  -
+    name: "Katja Bröckl-Bergner"
+    twitter: "@w8hrnehmnung"
+    url: "http://mywebsite.de"
+    tags:
+        - "Social Media"
+        - "Medienkompetenzbildung"
+        - "Skifahren"
+  -
+    name: "Alexandra Graßler"
+    twitter: "@wissensagentur"
+    url: "http://mywebsite2.de"
+    tags:
+        - "Social Media"
+        - "Productivity Hacks"
+        - "Lehren"
+  -
+    name: "Karin Schnappauf"
+    twitter: "@strukturimpulse"
+    url: "http://mywebsite2.de"
+    tags:
+      - "Entrepreneurship"
+      - "Online-Marketing"
+      - "Coworking"
+  -
+    name: "Raul Pinto"
+  -
+    name: "Guido Leibbrand"
+  -
+    name: "Ralph Haydl"
+    twitter: "@pilzpaket"
+    tags:
+      - "Kaffeesatz"
+      - "Pilze"
+      - "Pilzpaket"
+  -
+    name: "Bastian Vergnon"
+    twitter: "@BVergnon"
+    tags:
+      - "Social Media"
+      - "SPD"
+      - "TSV1860"
+  -
+    name: "Daniel Dengler"
+    twitter: "@ddengler"
+    tags:
+      - "Entwickler"
+      - "Web"
+      - "Mobile"
+  - 
+    name: "Michael Bladowski"
+    twitter: "@michabbb"
+    tags:
+      - "Web"
+      - "Developer"
+      - "Internet"
+  -
+    name: "1 anonymer Teilnehmer"
+  -
+    name: "Marion Hanneken"
+    twitter: "@blariog"
+    tags:
+      - "Application Management"
+      - "Aviation"
+      - "Skyrim"
+  -
+    name: "Andreas Pilz"
+    twitter: "@startupbus"
+    tags:
+      - "Screencasts"
+      - "Lokales Einkaufen"
+      - "Digitaler Nomade"
+  -
+    name: "Julia Anna Moor"
+    twitter: "@moor_juliaanna"
+    tags:
+      - "Texten"
+      - "Gesundheit"
+      - "Technik"
+  -
+    name: "Michael Völkl"
+    twitter: "@voelklmichael"
+    tags:
+      - "Web"
+      - "Mobile"
+      - "Niederbayern"
+  -
+    name: "Sonja Kaute"
+    twitter: "@sonjakaute"
+    tags:
+      - "Oberpfalznetz"
+      - "Journalismus"
+      - "Tauchen"
+  -
+    name: "Robert Baranovski"
+    twitter: "@pr3mut05"
+  -
+    name: "Torsten Maue"
+    twitter: "@tmmd"
+    tags:
+      - "Google+"
+      - "Bahnfahrer"
+      - "Blogger"
+  -
+    name: "Frank Neuhaus"
+    twitter: "@adthink"
+    tags:
+      - "Marketing-Berater"
+      - "Blogger"
+      - "Social Media-Trainer"
+  -
+    name: "Dominik Schön"
+    twitter: "@d_scho"
+    tags:
+      - "Forschung"
+      - "Mobile"
+      - "Geek"
+      
 days:
   sat:
     '8:30 - 9 Uhr': "Frühstück – 2.OG"
