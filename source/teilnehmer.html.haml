@@ -1,0 +1,21 @@
+-@nav = 'teilnehmer'
+- people = data.sessions2015.people
+
+#content-main
+    
+  .full_content
+    %h2 Bisher angemeldete Teilnehmer
+    %ul
+      - people.sort_by{ |it| it['name']}.each do |person|
+        %li 
+          - if person['twitter'] && person['twitter'][0] == "@"
+            = link_to "#{person['name']} (#{person['twitter']})", "http://twitter.com/#{person['twitter'][1..-1]}"
+          - else
+            = person['name']
+          &nbsp;
+          - if person['tags']
+            Meine Tags:
+            - person['tags'].each do |tag|
+              %span.label.label-default 
+                =tag 
+              &nbsp;

@@ -2,10 +2,10 @@
 - @subnav = '2014'
 - days = data.sessions2014.days
 
+.full
+  %h1 Archiv 2014
 
-%h1 Archiv 2014
-
-%h2 Nachberichte
+  %h2 Nachberichte
 
 .half
   %ul.space
@@ -45,16 +45,17 @@
       %br
       Autor: Alexandra Grassler
 
-%hr
+.full
+  %hr
 
 
-%h2 Sessions
+  %h2 Sessions
 
-%p
-  Fehlende Präsentationen bitte als Link einreichen unter
-  = mail_to "kontakt@bcrgb.de", "kontakt@bcrgb.de"
+  %p
+    Fehlende Präsentationen bitte als Link einreichen unter
+    = mail_to "kontakt@bcrgb.de", "kontakt@bcrgb.de"
 
-.space
+  .space
 
 - days.each do |day, times|
   .half{:class => (day == 'sun' ? "last" : "") }
@@ -93,4 +94,3 @@
       - people.each do |person|
         %li
           = person["name"]
-
