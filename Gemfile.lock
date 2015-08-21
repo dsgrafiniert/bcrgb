@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     activesupport (4.1.12)
       i18n (~> 0.6, >= 0.6.9)
@@ -145,3 +145,6 @@ DEPENDENCIES
   rake
   sass
   susy
+
+BUNDLED WITH
+   1.10.4
