@@ -7,8 +7,36 @@ rooms:
   
 people:
   -
+    name: "Bernd Schaffrath"
+    twitter: "@fastjack25"
+    tags:
+      - "Foto"
+      - "Twitch"
+      - "Gamer"
+  -
+    name: "Andrea Schaffrath"
+    twitter: "@cattysr"
+    tags:
+      - "Handarbeiten"
+      - "Serien"
+      - "Kater"
+  -
+    name: "Reinhard Weigl"
+    twitter: "@MediaStraubing"
+    tags:
+      - "Social Media"
+      - "CRM"
+      - "Running"
+  -
+    name: "Martin Dechant"
+    twitter: "@rameos2"
+    tags:
+      - "Gaming"
+      - "Virtual Reality"
+      - "Natural User Interaction"
+  -
     name: "Katja Bröckl-Bergner"
-    twitter: "@w8hrnehmnung"
+    twitter: "@w8hrnehmung"
     url: "http://mywebsite.de"
     tags:
         - "Social Media"
@@ -63,7 +91,7 @@ people:
       - "Developer"
       - "Internet"
   -
-    name: "1 anonymer Teilnehmer"
+    name: "2 anonymer Teilnehmer"
   -
     name: "Marion Hanneken"
     twitter: "@blariog"
