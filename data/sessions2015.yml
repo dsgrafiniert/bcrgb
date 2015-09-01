@@ -4,11 +4,39 @@ rooms:
   - 2
   - 3
   - 4
-  
+
 people:
   -
+    name: "Bernd Schaffrath"
+    twitter: "@fastjack25"
+    tags:
+      - "Foto"
+      - "Twitch"
+      - "Gamer"
+  -
+    name: "Andrea Schaffrath"
+    twitter: "@cattysr"
+    tags:
+      - "Handarbeiten"
+      - "Serien"
+      - "Kater"
+  -
+    name: "Reinhard Weigl"
+    twitter: "@MediaStraubing"
+    tags:
+      - "Social Media"
+      - "CRM"
+      - "Running"
+  -
+    name: "Martin Dechant"
+    twitter: "@rameos2"
+    tags:
+      - "Gaming"
+      - "Virtual Reality"
+      - "Natural User Interaction"
+  -
     name: "Katja Bröckl-Bergner"
-    twitter: "@w8hrnehmnung"
+    twitter: "@w8hrnehmung"
     url: "http://mywebsite.de"
     tags:
         - "Social Media"
@@ -55,7 +83,7 @@ people:
       - "Entwickler"
       - "Web"
       - "Mobile"
-  - 
+  -
     name: "Michael Bladowski"
     twitter: "@michabbb"
     tags:
@@ -63,7 +91,7 @@ people:
       - "Developer"
       - "Internet"
   -
-    name: "1 anonymer Teilnehmer"
+    name: "2 anonymer Teilnehmer"
   -
     name: "Marion Hanneken"
     twitter: "@blariog"
@@ -123,7 +151,23 @@ people:
       - "Forschung"
       - "Mobile"
       - "Geek"
-      
+  -
+    name: "James	Saunders"
+    twitter: ""
+    tags:
+      - "Abenteuer"
+      - "Engineering"
+      - "Zeitmanagement"
+  -
+    name: "Claudia Kiener"
+    twitter: ""
+    tags:
+      - "Golf"
+      - "Toastmasters"
+      - "Bayern"
+  -
+    name: "Kristina Amann"
+
 days:
   sat:
     '8:30 - 9 Uhr': "Frühstück – 2.OG"
