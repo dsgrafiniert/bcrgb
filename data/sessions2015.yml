@@ -7,6 +7,8 @@ rooms:
 
 people:
   -
+    name: "10 anonymer Teilnehmer"
+  -
     name: "Bernd Schaffrath"
     twitter: "@fastjack25"
     tags:
@@ -90,8 +92,7 @@ people:
       - "Web"
       - "Developer"
       - "Internet"
-  -
-    name: "2 anonymer Teilnehmer"
+
   -
     name: "Marion Hanneken"
     twitter: "@blariog"
@@ -167,6 +168,105 @@ people:
       - "Bayern"
   -
     name: "Kristina Amann"
+
+  -
+    name: "Andreas Solleder"
+    twitter: "@Aspalari"
+    tags:
+      - "Rails"
+      - "Ember"
+      - "Kaffee"
+
+  -
+    name: "Tatjana Moser"
+
+  -
+    name: "Sarah Schön"
+
+  -
+    name: "Andreas Kopp"
+
+  -
+    name: "Martin Mandl"
+
+  -
+    name: "Miguel A. Montecelo"
+
+  -
+    name: "Susanna Künzl"
+    twitter: "@ambranet"
+    tags:
+      - "CMS"
+      - "TYPO3"
+      - "Programmierung"
+
+  -
+    name: "Alexander Künzl"
+    tags:
+      - "TYPO3"
+      - "CMS"
+      - "Programmierung"
+
+  -
+    name: "Marius Max Künzl"
+    tags:
+      - "Photographie"
+      - "Design"
+      - "Reisen"
+
+  -
+    name: "Christopher Schott"
+
+  -
+    name: "Michael Kinseher"
+    twitter: "@mickelsr"
+    tags:
+      - "Fotografie"
+      - "CRM"
+      - "Web"
+
+  -
+    name: "Lars Hemala"
+    twitter: "@LeModdie"
+    tags:
+      - "Linux"
+      - "µC"
+      - "C/C#"
+
+  -
+    name: "Michael Buchner"
+    twitter: "@mikebuchner"
+    tags:
+      - "Social Media"
+      - "Ingress"
+      - "tbd"
+
+  -
+    name: "Hans Höchtl"
+    twitter: "@hhoechtl"
+    tags:
+      - "Solr"
+      - "Neos"
+      - "Angular"
+
+  -
+    name: "Barbara Lerchenberger"
+    twitter: "@textblueten"
+    tags:
+      - "SocialMedia"
+      - "Buch"
+      - "Recruiting"
+
+  -
+    name: "James Saunders"
+    twitter: ""
+    tags:
+      - "Abenteuer"
+      - "Engineering"
+      - "Zeitmanagement"
+
+  -
+    name: "Claudia Kiener"
 
 days:
   sat:
