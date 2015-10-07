@@ -261,8 +261,8 @@ people:
 
 days:
   sat:
-    '8:30 - 9 Uhr': "Anmeldung & Frühstück – 2.OG"
-    '9 - 10 Uhr': "Sessionplanung"
+    '9 - 9:30 Uhr': "Anmeldung & Frühstück – 2.OG"
+    '9:30 - 10 Uhr': "Sessionplanung"
     '10 - 11 Uhr':
       0:
         title: "TITLE"
@@ -272,11 +272,11 @@ days:
       0:
         title: "TITLE"
         speaker: "@TWITTER"
-    '12 - 13 Uhr': "Mittagessen – FH Mensa"
-    '13 - 14 Uhr':
+    '12 - 13 Uhr':
       0:
         title: "TITLE"
         speaker: "@TWITTER"
+    '13 - 14 Uhr': "Mittagessen – FH Mensa"
     '14 - 15 Uhr':
       0:
         title: "TITLE"
@@ -310,13 +310,12 @@ days:
       0:
         title: "TITLE"
         speaker: "@TWITTER"
-
-    '12 - 13 Uhr': "Mittagessen – 2.OG"
-    '13 - 14 Uhr':
+    '12 - 13 Uhr':
       0:
         title: "TITLE"
         speaker: "@TWITTER"
-
+    '13 - 14 Uhr': "Mittagessen – 2.OG"
+    
     '14 - 15 Uhr':
       0:
         title: "TITLE"
