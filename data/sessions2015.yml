@@ -1,5 +1,5 @@
 rooms:
-  - HAUPTSPONSOR
+  - 0
   - 1
   - 2
   - 3
@@ -94,7 +94,7 @@ people:
       - "Internet"
 
   -
-    name: "Marion Hanneken"
+    name: "Mario Hanneken"
     twitter: "@blariog"
     tags:
       - "Application Management"
@@ -152,13 +152,7 @@ people:
       - "Forschung"
       - "Mobile"
       - "Geek"
-  -
-    name: "James	Saunders"
-    twitter: ""
-    tags:
-      - "Abenteuer"
-      - "Engineering"
-      - "Zeitmanagement"
+
   -
     name: "Claudia Kiener"
     twitter: ""
@@ -265,13 +259,10 @@ people:
       - "Engineering"
       - "Zeitmanagement"
 
-  -
-    name: "Claudia Kiener"
-
 days:
   sat:
-    '8:30 - 9 Uhr': "Frühstück – 2.OG"
-    '9 - 10 Uhr': "Sessionplanung - HAUPTSPONSOR"
+    '8:30 - 9 Uhr': "Anmeldung & Frühstück – 2.OG"
+    '9 - 10 Uhr': "Sessionplanung"
     '10 - 11 Uhr':
       0:
         title: "TITLE"
@@ -301,10 +292,13 @@ days:
         title: "TITLE"
         speaker: "@TWITTER"
 
+    '17 - 18 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
 
-    '17 Uhr': 'Abendessen'
-    '19:15 Uhr': 'Stadtführung (Optional)'
-    'ab 20 Uhr': 'Abendprogramm – Couch Bar'
+    '18 Uhr': 'Abendessen'
+    'ab 20 Uhr': 'Abendprogramm'
 
   sun:
     '9 - 10 Uhr': "Frühstück & Sessionplanung – 2.OG"
@@ -331,4 +325,8 @@ days:
       0:
         title: "TITLE"
         speaker: "@TWITTER"
-    '16 Uhr': "Ende – Feedback"
+    '16 - 17 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+    '17 Uhr': "Ende – Feedback"
