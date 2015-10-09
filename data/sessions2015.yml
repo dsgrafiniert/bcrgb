@@ -258,6 +258,51 @@ people:
       - "Abenteuer"
       - "Engineering"
       - "Zeitmanagement"
+	  
+  -
+    name: "Christian de Vries"
+    twitter: "@prcdv"
+	
+  -
+    name: "Bernhard Fersch"
+	
+  -
+    name: "Matthias Süß"
+    twitter: "@matthiassuess"
+    tags:
+      - "SEO"
+      - "eCommmerce"
+      - "Business Angel"
+    
+  -
+    name: "Josef Rossmann"
+    twitter: "@josefrossmann"
+    tags:
+      - "Mobile"
+      - "Unternehmer"
+      - "Geschäftsmodelle"
+	  
+  -
+    name: "Maria Vogt"
+    tags:
+      - "Rumänien"
+      - "Erlebnisbericht"
+      - "Survival"
+	  
+  -
+    name: "Arthur Gollmer"
+    tags:
+      - "Bioinformatiker"
+      - "Allrounder"
+      - "soziophil"
+	  
+  -
+    name: "Wolfgang Lutz"
+    twitter: "@WLBORg"
+    tags:
+      - "iOS"
+      - "Administration"
+      - "Automatisierung"
 
 days:
   sat:
