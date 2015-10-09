@@ -1,14 +1,44 @@
 rooms:
-  - HAUPTSPONSOR
+  - 0
   - 1
   - 2
   - 3
   - 4
-  
+
 people:
   -
+    name: "10 anonymer Teilnehmer"
+  -
+    name: "Bernd Schaffrath"
+    twitter: "@fastjack25"
+    tags:
+      - "Foto"
+      - "Twitch"
+      - "Gamer"
+  -
+    name: "Andrea Schaffrath"
+    twitter: "@cattysr"
+    tags:
+      - "Handarbeiten"
+      - "Serien"
+      - "Kater"
+  -
+    name: "Reinhard Weigl"
+    twitter: "@MediaStraubing"
+    tags:
+      - "Social Media"
+      - "CRM"
+      - "Running"
+  -
+    name: "Martin Dechant"
+    twitter: "@rameos2"
+    tags:
+      - "Gaming"
+      - "Virtual Reality"
+      - "Natural User Interaction"
+  -
     name: "Katja Bröckl-Bergner"
-    twitter: "@w8hrnehmnung"
+    twitter: "@w8hrnehmung"
     url: "http://mywebsite.de"
     tags:
         - "Social Media"
@@ -55,17 +85,16 @@ people:
       - "Entwickler"
       - "Web"
       - "Mobile"
-  - 
+  -
     name: "Michael Bladowski"
     twitter: "@michabbb"
     tags:
       - "Web"
       - "Developer"
       - "Internet"
+
   -
-    name: "1 anonymer Teilnehmer"
-  -
-    name: "Marion Hanneken"
+    name: "Mario Hanneken"
     twitter: "@blariog"
     tags:
       - "Application Management"
@@ -123,11 +152,117 @@ people:
       - "Forschung"
       - "Mobile"
       - "Geek"
-      
+
+  -
+    name: "Claudia Kiener"
+    twitter: ""
+    tags:
+      - "Golf"
+      - "Toastmasters"
+      - "Bayern"
+  -
+    name: "Kristina Amann"
+
+  -
+    name: "Andreas Solleder"
+    twitter: "@Aspalari"
+    tags:
+      - "Rails"
+      - "Ember"
+      - "Kaffee"
+
+  -
+    name: "Tatjana Moser"
+
+  -
+    name: "Sarah Schön"
+
+  -
+    name: "Andreas Kopp"
+
+  -
+    name: "Martin Mandl"
+
+  -
+    name: "Miguel A. Montecelo"
+
+  -
+    name: "Susanna Künzl"
+    twitter: "@ambranet"
+    tags:
+      - "CMS"
+      - "TYPO3"
+      - "Programmierung"
+
+  -
+    name: "Alexander Künzl"
+    tags:
+      - "TYPO3"
+      - "CMS"
+      - "Programmierung"
+
+  -
+    name: "Marius Max Künzl"
+    tags:
+      - "Photographie"
+      - "Design"
+      - "Reisen"
+
+  -
+    name: "Christopher Schott"
+
+  -
+    name: "Michael Kinseher"
+    twitter: "@mickelsr"
+    tags:
+      - "Fotografie"
+      - "CRM"
+      - "Web"
+
+  -
+    name: "Lars Hemala"
+    twitter: "@LeModdie"
+    tags:
+      - "Linux"
+      - "µC"
+      - "C/C#"
+
+  -
+    name: "Michael Buchner"
+    twitter: "@mikebuchner"
+    tags:
+      - "Social Media"
+      - "Ingress"
+      - "tbd"
+
+  -
+    name: "Hans Höchtl"
+    twitter: "@hhoechtl"
+    tags:
+      - "Solr"
+      - "Neos"
+      - "Angular"
+
+  -
+    name: "Barbara Lerchenberger"
+    twitter: "@textblueten"
+    tags:
+      - "SocialMedia"
+      - "Buch"
+      - "Recruiting"
+
+  -
+    name: "James Saunders"
+    twitter: ""
+    tags:
+      - "Abenteuer"
+      - "Engineering"
+      - "Zeitmanagement"
+
 days:
   sat:
-    '8:30 - 9 Uhr': "Frühstück – 2.OG"
-    '9 - 10 Uhr': "Sessionplanung - HAUPTSPONSOR"
+    '9 - 9:30 Uhr': "Anmeldung & Frühstück – 2.OG"
+    '9:30 - 10 Uhr': "Sessionplanung"
     '10 - 11 Uhr':
       0:
         title: "TITLE"
@@ -137,11 +272,11 @@ days:
       0:
         title: "TITLE"
         speaker: "@TWITTER"
-    '12 - 13 Uhr': "Mittagessen – FH Mensa"
-    '13 - 14 Uhr':
+    '12 - 13 Uhr':
       0:
         title: "TITLE"
         speaker: "@TWITTER"
+    '13 - 14 Uhr': "Mittagessen – FH Mensa"
     '14 - 15 Uhr':
       0:
         title: "TITLE"
@@ -157,10 +292,13 @@ days:
         title: "TITLE"
         speaker: "@TWITTER"
 
+    '17 - 18 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
 
-    '17 Uhr': 'Abendessen'
-    '19:15 Uhr': 'Stadtführung (Optional)'
-    'ab 20 Uhr': 'Abendprogramm – Couch Bar'
+    '18 Uhr': 'Abendessen'
+    'ab 20 Uhr': 'Abendprogramm'
 
   sun:
     '9 - 10 Uhr': "Frühstück & Sessionplanung – 2.OG"
@@ -172,13 +310,12 @@ days:
       0:
         title: "TITLE"
         speaker: "@TWITTER"
-
-    '12 - 13 Uhr': "Mittagessen – 2.OG"
-    '13 - 14 Uhr':
+    '12 - 13 Uhr':
       0:
         title: "TITLE"
         speaker: "@TWITTER"
-
+    '13 - 14 Uhr': "Mittagessen – 2.OG"
+    
     '14 - 15 Uhr':
       0:
         title: "TITLE"
@@ -187,4 +324,8 @@ days:
       0:
         title: "TITLE"
         speaker: "@TWITTER"
-    '16 Uhr': "Ende – Feedback"
+    '16 - 17 Uhr':
+      0:
+        title: "TITLE"
+        speaker: "@TWITTER"
+    '17 Uhr': "Ende – Feedback"

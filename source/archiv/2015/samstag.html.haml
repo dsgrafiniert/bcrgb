@@ -2,32 +2,34 @@
 - rooms = data.sessions2015.rooms
 - sat = data.sessions2015.days.sat
 
-%h2 Samstag
+.full
+  %h2 Samstag
 - sat.each do |time, val|
-  %h3.room_header=time
-  - if val.is_a? Hash
-    .rooms
-      - rooms.each_index do |r|
-        .room{:class => "room_#{r}"}
-          %p.small
-            Raum:
-            = rooms[r]
-          - if val[r]
-            %p
-              %strong
-                = val[r]['title']
-            - if val[r]['speaker']
+  .full
+    %h3.room_header=time
+    - if val.is_a? Hash
+      .rooms
+        - rooms.each_index do |r|
+          .room{:class => "room_#{r}"}
+            %p.small
+              Raum:
+              = rooms[r]
+            - if val[r]
               %p
-                Sprecher(in):
                 %strong
-                  - if val[r]['speaker'][0] == "@"
-                    = link_to val[r]['speaker'], "http://twitter.com/#{val[r]['speaker'][1..-1]}"
-                  - else 
-                    = val[r]['speaker']
-          - else
-            %p Frei
+                  = val[r]['title']
+              - if val[r]['speaker']
+                %p
+                  Sprecher(in):
+                  %strong
+                    - if val[r]['speaker'][0] == "@"
+                      = link_to val[r]['speaker'], "http://twitter.com/#{val[r]['speaker'][1..-1]}"
+                    - else
+                      = val[r]['speaker']
+            - else
+              %p Frei
 
-  - else
-    .room_message
-      %p
-        %strong= val
+    - else
+      .room_message
+        %p
+          %strong= val

@@ -2,9 +2,10 @@
 - @subnav = '2013'
 - days = data.sessions2013.days
 
-%h1 Archiv 2013
-%h2 Sessions
-.space
+.full
+  %h1 Archiv 2013
+  %h2 Sessions
+  .space
 - days.each do |day, times|
   .half{:class => (day == 'sun' ? "last" : "") }
     - if day == 'sat'
@@ -23,7 +24,7 @@
 
           - if session['speaker'][0] == "@"
             = link_to session['speaker'], "http://twitter.com/#{session['speaker'][1..-1]}"
-          - else 
+          - else
             = session['speaker']
-
-.space
+.full
+  .space
