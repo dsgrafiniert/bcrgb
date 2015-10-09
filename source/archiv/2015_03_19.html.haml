@@ -3,15 +3,16 @@
 - days = data.sessions2015_01.days
 
 
-%h1 BarCamp Night - März 2015
+.full
+  %h1 BarCamp Night - März 2015
 
-%h2 Sessions
+  %h2 Sessions
 
-%p
-  Fehlende Präsentationen bitte als Link einreichen unter
-  = mail_to "kontakt@bcrgb.de", "kontakt@bcrgb.de"
+  %p
+    Fehlende Präsentationen bitte als Link einreichen unter
+    = mail_to "kontakt@bcrgb.de", "kontakt@bcrgb.de"
 
-.space
+  .space
 
 - days.each do |day, times|
   .half{:class => (day == 'sun' ? "last" : "") }
